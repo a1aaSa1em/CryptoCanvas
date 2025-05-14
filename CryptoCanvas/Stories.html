@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS Grid</title>
+
+
+
+    <!-- Connecting the css file to this html--> 
+   <link rel="stylesheet" type="text/css" href="Storystyles.css">
+  
+    <div class="grid-container">
+            <!-- Header row --> 
+            <div class="one-col">
+              <a href="index.html">
+                  <img id="logo" src="img/Logo5.png" alt="Home">   <!-- Setting up logo home button--> 
+              </a>
+          </div>
+            <div class="one-col bottom-row">
+                <a href="Stories.html">
+                  <button class="trend-button">Stories</button>   <!-- Setting up logo  Stories  button--> 
+                </a>
+              </div>                  
+            <div class="one-col bottom-row">
+                <a href="Trends.html">
+                  <button class="trend-button">Trends</button>  <!-- Setting up Trends button --> 
+                </a>
+              </div>                   
+              <div class="one-col bottom-row">
+                <a href="Shop.html">
+                  <button class="trend-button">Stories</button>  <!-- Setting up Stories button --> 
+                </a>
+              </div>                                  
+            <div class="four-col bottom-row" id="cryptoCanvas">crypto canvas</div> <!-- Setting up organisation name --> 
+            <div class="two-col"></div>
+            <div class="two-col bottom-row">
+                <a href="AboutUs.html">
+                    <button class="trend-button">About Us</button>  <!-- Setting up about us page --> 
+                </a>
+            </div>
+
+            <!-- Features row, setting up header  -->
+                <div class="four-col bottom-row"></div>
+                <div class="four-col" id="pageTitle">Stories </div>        
+                <div class="four-col bottom-row"></div>
+
+                <div class="eleven-col new-content">
+                  <!-- Creating section of the stories, and setting up the grid overall here   -->
+           <section class="stories">
+             <div class="grid-container">
+     
+     
+     
+         <!-- Story 1 -->
+         <a href="story3.html" class="story-link">
+           <article class="Story-Page">
+             <div class = "Container-img">
+             <img src="img/George.png" alt="Old George, Graphic desgiber" style="width: 300px; height: 140px;">
+             <div class = "Container-Text">
+             <h3>The Unseen Art of Holborn: George's Digital Revolution</h3>
+             <p class = " Story-details">George Story details...</p>
+             <span class="Story-date"><span class="highlight">World</span> - 22 Jan 2023</span>   <!-- use of serach engine -->
+     
+           </article>
+       </a>
+     
+     
+
+      <!-- Story 2 -->
+
+      <a href="Story2.html" class="story-link">
+       <article class="Story-Page">
+         <div class = "Container-img">
+         <img src="img/robot.png" alt="Jamie" style="width: 300px; height: 140px;">
+         <div class = "Container-Text">
+         <h3>The Rivival NFT: The advertising NFT Story </h3>
+         <p class = " Story-details"> Story details...</p>
+         <span class="Story-date"><span class="highlight">World</span> - 18 Jan 2023</span>   <!-- use of serach engine -->
+     
+       </article>
+     </a>
+
+      <!-- Story 3-->
+     <a href="story1.html" class="story-link">
+      <article class="Story-Page">
+        <div class = "Container-img">
+        <img src="img/Maria's.png" alt="Maria" style="width: 300px; height: 140px;">
+        <div class = "Container-Text">
+        <h3>The digital Fashion Revolution </h3>
+        <p class = " Story-details"> Maria Story details...</p>
+        <span class="Story-date"><span class="highlight">World</span> - 15 Jan 2023</span>   <!-- use of serach engine -->
+    
+      </article>
+    </a>
+
+        
+    </div>
+</html>
+
+

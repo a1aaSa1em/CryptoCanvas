@@ -1,0 +1,411 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    
+/* Styling for the header section of the page */
+    .header {
+        display: grid;/* using the grid layout for positioning elements in the page */
+        margin:0; /*  The header and padding margin was set to 0 */
+        padding:0;
+
+    }
+
+
+    /* Global Body styles here will be done  */
+    
+    body {
+        font-family: 'Bangers', Arial;  /* Setting up here the font family  */
+        font-size: 12px;  /* The size of the font being set  */
+        color: rgb(255, 255, 255);/* Setting the text color to white */
+        margin: 0;/* Setting the text color to white */
+        padding: 0;/* Setting the padding to 0 */
+        width: 100%;/* Ensuring that the body is full height */
+        height: 100%;/* Setting the text color to white */
+        overflow-x: hidden;/* Ensuring body takes full height of the viewport */
+        overflow-y: hidden;/*Hiding vertical overflow (prevents vertical scrolling) */
+        background-color: #1a1a1a;  /* Setting the background color */ 
+    }
+    
+
+
+/* Styling for the canvas element will be done here */
+    #cryptoCanvas {   
+        font-size: 60px;/* Large font size being used  */
+        padding: 10px 10px;/*  Padding inside the canvas overall element  */
+    }
+/* setting here the page title css  */
+    #pageTitle {
+        font-size: 90px; /* the i  */
+        transform: translate(-0%, 3%); /* Css for the header  */
+        background: rgb(91, 91, 91);/* background colour of the titke  */
+    }
+ /* Css for the text  */
+    #text {
+        font-size: 40px; /* Text being set to the 40 */
+        Transform: translate(-8%, 30%) /* Here the position will be adjust*/
+    }
+/* Styliing for the shop text  */
+    #shopText {
+        Transform: translate(-10%, 50%);/* Here the position will be adjust*/
+        font-size: 30px;/* Text being set to the 30 */
+        grid-column: span 2; /* Grid Column Being used */
+        height: auto;/* Height being set to auto */
+    }
+ /* Css for the logo  */
+    #logo {
+        width: 97px;/* width of the logo */
+        height:70px; /* height of the logo */
+        transform: translate(0%, 7%); 
+        margin-right: 4rem;
+        margin-top: -1em;
+    }
+    
+
+/* General styling for div elements */
+    div {
+        background-color: rgba(23,24,18,255); /* setting up here */
+    }
+
+   
+/* General styling for img elements */
+    img {
+        width: auto; /* Width will be settled depending on elements */
+        height: auto;/* General styling for div elements */
+    }
+
+/* Styling for the bottom row of a layout, by inserting the padding, and margin left */
+    .bottom-row{
+        padding-top: 1em; /* Padding at the top */
+        padding-bottom: 1em;/* Padding at the bottom */
+        margin-left: -0.8rem;
+    }
+    /* Grind Container Styling for layour */
+    .grid-container {
+      display: grid;/* using the grid layout for the website*/
+      grid-template-columns: repeat(12, 1fr);  /* Defining a 12-column grid */
+      grid-template-rows: auto auto auto 150px; /* Defining row sizes */
+      grid-gap: 1px;/* Space between grid items */
+      background-color: rgba(23,24,18,255);/* Background color for the grid container */
+      padding: 1px; 
+    
+/* column span classes for the grid items, this makes website overall responsive  */
+.one-col {
+     grid-column: span 1;
+}
+
+.two-col {
+    grid-column: span 2;
+}
+
+.three-col {
+    grid-column: span 3;
+}
+
+.four-col {
+    grid-column: span 4;
+}
+
+.five-col {
+    grid-column: span 5;
+}
+
+.six-col {
+    grid-column: span 6;
+}
+
+.seven-col {
+    grid-column: span 7;
+}
+
+.eight-col {
+    grid-column: span 8;
+}
+
+.nine-col {
+    grid-column: span 9;
+}
+
+.ten-col {
+    grid-column: span 10;
+}
+
+.eleven-col {
+    grid-column: span 11;
+    padding: 14rem;
+    gap: 10rem;
+    
+   
+}
+
+.twelve-col {
+    grid-column: span 12;
+
+}
+
+/* Styling for grid items, centering text and setting font size */
+.grid-container > div {
+  text-align: center;/* Centering text within each grid item */
+  font-size: 30px;/* Setting font size for text within grid items */
+}
+
+/* Styling for the trending section with a grid layout */
+.trending {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Styling for individual trending items */
+.trending-item {
+    background-color: #1a1a1a; /* Background color for items */
+    border-radius: 10px; /* Rounded corners for the items */
+    overflow: hidden; /* Hides any overflow (useful for images) */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling transition */
+    grid-column: span 3; /* Each item takes up 3 columns */
+}
+
+ /* Setting Up Here the hover */
+.trending-item:hover {
+    transform: scale(1.05); /* The trending items will trabsform, 1.05 */
+}
+
+ /* Each item takes up 3 columns */
+
+.trending-item img {
+    width: 100%; /* Image takes full width of its container */
+    height: auto; /* Height adjusts to maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.trending-item h3, .trending-item p {
+    padding: 16px; /* Setting out here the the padding, for the trending- items the header  */
+    text-align: center;/* alignning the text the center */
+}
+
+.trends-title {
+    font-size: 32px;
+    padding-left: 20px;
+}
+.grid-container, .header, div {
+    background-color: #1a1a1a; 
+}
+
+/* Add some style to the button */
+.shop-button {
+    background-color: rgba(108, 105, 105, 0.218); /* color for the background of the shop */
+    color: white;/*Contrast color for the text */
+    border: none;/* Border has been default */
+    border-radius: 25%; /* Border-radius being set to 25% */
+    font-family: 'Bangers', Arial;  
+    font-size: 150px;          
+    padding: 30px 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shop-button:hover {
+    filter: brightness(20%); /* Make the button 20% darker */
+}
+.trend-button {
+    background-color: rgba(209, 209, 200, 255); /* Light gray background */
+    color: rgba(23, 24, 18, 255); /* Dark text for contrast */
+    border: none; /* No border  */
+    font-family: 'Bangers', Arial; /* Consistent custom font usage */
+    font-size: 30px; /* Moderate font size for readability */
+    padding: 20px 50px 20px 20px; /* Custom padding for visual balance */
+    white-space: nowrap; /*  ensuring the text don't go to a new line */
+    cursor: pointer; /* Changes cursor to indicate clickability */
+    position: absolute; /* Absolute positioning  */
+    transform: translate(-40%, -34%); /* Position adjustment for alignment */
+}
+.trend-button:hover {
+    filter: brightness(80%); /* Lighten button on hover for interactivity */
+}
+
+/* Styles for the home button */
+.home-button {
+    background-color: none; /* Transparent background */
+    color: white; /* White text  */
+    border: none; /* No border  */
+    font-family: 'Bangers', Arial; /* Maintaining font consistency */
+    font-size: 60px; /* Large font size  */
+    padding: 10px 10px; /* Padding for spacing */
+    white-space: nowrap; /* Keeps the text on a single line */
+    cursor: pointer; 
+    position: absolute; 
+}
+
+/* Styles for the live shows button */
+.live-shows-button {
+    background-image: url(img/LiveShow.png); /* Background image for visual appeal */
+    color: white; /* Text color for contrast */
+    border: none; /* No border for a seamless integration with the background */
+    border-radius: 25px; /* Rounded corners for a modern look */
+    font-family: 'Bangers', Arial; /* Consistent use of custom font */
+    font-size: 50px; 
+    padding: 30px 100px; /* Ample padding for a larger clickable area */
+    cursor: pointer; /* Indicates the element is clickable */
+    position: absolute;
+    transform: translate(-50%, -20%); /* Adjusts the button's position */
+}
+.live-shows-button:hover {
+    filter: brightness(80%); /* Adjusts brightness on hover for a subtle interaction cue */
+}
+
+
+
+    
+
+  .grid-container {
+    
+    gap: 15px;
+    background-color: #1a1a1a;  /* Background colour  */
+    
+ }
+ 
+/* styling the css for the container for story */
+ 
+ .Story-Page {
+     /* The container or block css in story */
+    display:flex;/* Display as flex, so it allows to display as conatiner  */
+    gap: 4rem;/* gap between the container*/
+    margin-bottom: 1rem; 
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;  /* The container position*/
+    align-items: center; /* The align items is being set up to center*/
+   padding: -3rem; /* Negative padding, which might not have the intended effect */
+    width: 100%; /* Container takes full width of its parent */
+    height: 35px; /* Fixed height,for the   content and styles */
+    line-height: 40px; /* Sets the height of a line of text */
+    max-height: 400px; /* Maximum height of the container */
+    max-width: 350px; /* Maximum width of the container */
+    margin-left: 1rem; 
+    margin-top: -7rem; /* Negative top margin for positioning */
+    transition: all 0.3s ease; /* Transition can be done quickly*/
+}
+
+
+   
+
+/* Conatiner text style */
+ .Container-Text{
+  font-size: 1.1rem;
+  margin-bottom:1rem;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  height: 100%;
+  text-align: left;
+  text-shadow: 2px 2px 8px #000000;
+  background: rgba(255, 255, 255, 0.7); /* White semi-transparent overlay */
+  padding: 10px;
+  font-family:sans-serif ;
+  font-weight: bold;
+  margin-top: 1;
+   
+
+}
+
+
+.story-link{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.highlight {
+  color: #007BFF; /* This is a blue color*/
+}
+
+
+.Story-details{
+  font-size: 1rem;
+  margin-top: 0.5em;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  text-shadow: 2px 2px 8px #000000;
+  line-height: 1.6;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+  
+  
+.highlight {
+  color: #007BFF; }
+   
+
+
+  
+
+.Story-date {
+  font-size: 0.9rem;
+   font-style: italic;
+   color:black;
+   margin-top: 0.20em;
+   font-weight: normal;
+  
+}
+
+
+
+
+ .Story-Page:hover{
+  transform: scale(1.1);
+  border-color: brown;
+
+  
+}
+
+
+
+
+
+ /* Container of img, css set 100% width, and 2 em margin top */ 
+.Container-img {
+  border-radius: 0px; 
+  margin-top: 2em;
+  max-width: 100%;
+  height: auto;
+  align-self: flex-start;
+  
+
+}
+
+
+
+
+.Containet{
+  border-radius: 0px; 
+  margin-top: rem;
+  max-width: 100%;
+  height: auto;
+  align-self: flex-start;
+  
+
+}
+
+
+
+
+
+
+
+
+.Story-Page {
+   border: 1px solid #ccc;
+   padding: 0px;
+   background: white;
+   box-shadow: 0 2px 5px black;
+   font-style: normal;
+   height: auto;
+   
+   
+
+}
+
+
+    }

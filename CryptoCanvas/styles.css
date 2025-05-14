@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+       
+        .header {
+            display: grid;
+            margin:0;
+            padding:0;
+
+        }
+        
+        body {
+            font-family: 'Bangers', Arial;
+            font-size: 12px;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; /* Preventing horizontal scrolling */
+            overflow-y: hidden; /* Preventing vertical scrolling */
+            background-color: #1a1a1a; 
+        }
+        
+        
+        #cryptoCanvas {
+            font-size: 60px;
+            padding: 10px 10px;
+        }
+
+        #pageTitle {
+            font-size: 90px; 
+            transform: translate(-0%, 3%); /* centers the title on the screen */
+            background: rgb(91, 91, 91);
+        }
+
+        #text {
+            font-size: 40px;
+            Transform: translate(-8%, 30%)
+        }
+
+        #shopText {
+            Transform: translate(-10%, 50%);
+            font-size: 30px;
+            grid-column: span 2;
+            height: auto;
+        }
+
+        #logo {
+            width: 120px;
+            height:73px;
+            transform: translate(0%, 7%);
+        }  
+
+        div {
+            background-color: rgba(23,24,18,255);
+        }
+
+       
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        .bottom-row{
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        /* 3 columns */
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);  
+          grid-template-rows: auto auto auto 150px; /* this is the only way that worked for our layout*/
+          grid-gap: 1px;
+          background-color: rgba(23,24,18,255);
+          padding: 1px;
+        }
+          
+
+        .container {
+            grid-template-columns: 90px 90px;
+            grid-template-rows: 90px 90px;
+        }
+
+        .one-col {
+             grid-column: span 1;
+        }
+
+        .two-col {
+            grid-column: span 2;
+        }
+
+        .three-col {
+            grid-column: span 3;
+        }
+
+        .four-col {
+            grid-column: span 4;
+        }
+
+        .five-col {
+            grid-column: span 5;
+        }
+
+        .six-col {
+            grid-column: span 6;
+        }
+
+        .seven-col {
+            grid-column: span 7;
+        }
+
+        .eight-col {
+            grid-column: span 8;
+        }
+
+        .nine-col {
+            grid-column: span 9;
+        }
+
+        .ten-col {
+            grid-column: span 10;
+        }
+
+        .eleven-col {
+            grid-column: span 11;
+        }
+
+        .twelve-col {
+            grid-column: span 12;
+        }
+
+        
+        .grid-container > div {  /*this fixed the gaps at the bottom of the page*/
+          text-align: center;
+          font-size: 30px;
+        }
+
+        .trending {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .trending-item {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            grid-column: span 3; /* Each item will span 3 columns */
+        }
+
+        .trending-item:hover {
+            transform: scale(1.05);
+        }
+
+        .trending-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .trending-item h3, .trending-item p {
+            padding: 16px;
+            text-align: center;
+        }
+
+        .trends-title {
+            font-size: 32px;
+            padding-left: 20px;
+        }
+
+        /* Add some style to the button */
+        .shop-button {
+            background-color: rgba(108, 105, 105, 0.218);
+            color: white;
+            border: none;
+            border-radius: 25%;
+            font-family: 'Bangers', Arial;  
+            font-size: 150px;          
+            padding: 30px 40px;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform 0.5s ease;
+
+        }
+        .shop-button:hover {
+            filter: brightness(20%); /* Make the button 20% darker */
+            transform: translate(-50%, -50%) scale(1.5);
+        }
+        .trend-button {
+            background-color: rgba(209,209,200,255);
+            color: rgba(23,24,18,255);
+            border: none;
+            font-family: 'Bangers', Arial;  
+            font-size: 30px;          
+            padding: 20px 50px 20px 20px;
+            white-space: nowrap;
+            cursor: pointer;
+            position: absolute;
+            transform: translate(-40%, -34%);
+            
+        }
+        .trend-button:hover {
+            filter: brightness(80%); /* Make the button 20% darker */
+        }
+
+        .home-button {
+            background-color:none;
+            color: white;
+            border: none;
+            font-family: 'Bangers', Arial;  
+            font-size: 60px;
+            padding: 10px 10px;
+            white-space: nowrap;
+            cursor: pointer;
+            position: absolute;
+        }
+
+        .live-shows-button {
+            background-image:url(img/LiveShow.png);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-family: 'Bangers', Arial;  
+            font-size: 50px;          
+            padding: 30px 100px;
+            cursor: pointer;
+            position: absolute;
+            transform: translate(-50%, -20%);
+            transition: transform 0.5s ease;
+        }
+        .live-shows-button:hover {
+            filter: brightness(80%); /* Make the button 20% darker */
+            transform: translate(-50%, -50%) scale(1.5);
+
+        }
+        .gif {
+            background-image: url('img/ArtStatic.png'); /* this is the image displayed*/
+            background-repeat: no-repeat;
+            width: auto;
+            height: 400px;
+            padding: 0;
+            margin: 0;
+            transform:translate(-10%, 10%) ;
+            border-radius: 10%;
+            background-position: center;
+            transition: transform 0.5s ease;
+
+          }
+        
+          .gif:hover {
+            background-image: url('img/Art.gif'); /* this is the gif that plays when the cyrsor hovers*/
+            transform: translate(-10%, 10%) scale(1.2);
+
+          }
+    
+        .gif2 {
+            background-image: url('img/FashionStatic.png');
+            background-repeat: no-repeat;
+            width: auto;
+            height: 400px;
+            padding: 0;
+            margin: 0;
+            transform:translate(-10%, 10%) ;
+            border-radius: 10%;
+            background-position: 45% 50%;
+            transition: transform 0.5s ease;
+
+          }
+        
+        .gif2:hover {
+            background-image: url('img/Fashion.gif');
+            transform: translate(-10%, 10%) scale(1.2);
+
+          }   
+        .gif3 {
+            background-image: url('img/AuctionStatic.png');
+            background-repeat: no-repeat;
+            width: auto;
+            height: 400px;
+            padding: 0;
+            margin: 0;
+            transform:translate(-10%, 10%) ;
+            background-position: 45% 50%;
+            border-radius: 10%;
+            transition: transform 0.5s ease;
+          }
+        
+        .gif3:hover {
+            background-image: url('img/Auction.gif');
+            transform: translate(-10%, 10%) scale(1.2);
+          }
+
+          .grid-container, .header, div {
+            background-color: #1a1a1a;
+          }
+        
+
+

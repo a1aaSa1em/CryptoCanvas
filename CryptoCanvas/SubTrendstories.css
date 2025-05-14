@@ -1,0 +1,375 @@
+body {
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* reference -online serach engine */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* CSS Styles for the "Previous Page" button */
+#previousButton {
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 120px;
+    height: 50px;
+    margin-top: -75px;
+    margin-right: 10px; 
+    margin-left: 10px; 
+    position:fixed;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 10px
+}
+
+#previousButton:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+.summary h2 {
+     font-size:50px;
+    color:black;
+    padding:0rem;
+    margin-top:-100px;
+
+
+
+}
+.summary-text{
+
+    font-size:1000;
+}
+
+
+
+.desgin {
+    font-family: Arial, sans-serif; 
+    font-size: 14xpx; 
+    color: #333; 
+    line-height: 1.6; 
+    padding:25px}
+
+
+
+    body {
+        font-family:  sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+       .Buttons {
+        border:none; 
+        cursor:pointer;
+        background-color:grey;
+        color:white;
+        margin-top:30px;
+        font-size: 16px;
+        border-radius:5px;
+        padding: 10px 20px;
+        width:100px;
+        height:50px;
+    
+    
+    }
+    
+    
+    
+    .bar{
+        position:fixed;
+        top:118px;
+        left:0px;
+        height:57%;
+        padding:10px;
+        box-sizing:border-box;
+        z-index:600;
+        background-color:#333;
+        width:130px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .content {
+        margin-left: 100px; 
+        margin-top: 80px; 
+    }
+    
+    
+    /* reference -online serach engine */
+    section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    
+    /* CSS Styles for the "Previous Page" button */
+    #previousButton {
+        border: none;
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px 20px;
+        width: 120px;
+        height: 50px;
+        margin-top: -75px;
+        margin-right: 10px; 
+        margin-left: 10px; 
+        position:fixed;
+        bottom: 10px; 
+        right: 10px
+    }
+    
+    #previousButton:hover {
+        background-color: #555;
+    }
+    
+    
+    
+    
+    .img_one {
+        max-width: 30%; 
+        height: auto; 
+        border: 2px solid #333; 
+        padding: 0; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    
+    
+    .summary h2 {
+         font-size:50px;
+        color:black;
+        padding:0rem;
+        margin-top:-100px;
+    
+    
+    
+    }
+    .summary-text{
+    
+        font-size:1000;
+    }
+    
+    
+    
+    .desgin {
+        font-family: Arial, sans-serif; 
+        font-size: 14xpx; 
+        color: #333; 
+        line-height: 1.6; 
+        padding:25px}
+    
+    
+    
+    
+        .Story-one {
+            max-width: 30%; 
+            height: auto; 
+            padding: 1rem; 
+            display: block; 
+            margin-top:2rem; 
+    
+        }
+    
+        .summary-text{
+            font-family: Arial, sans-serif; 
+        font-size: 14xpx; 
+        color: #333; 
+        line-height: 1.6; 
+        padding:25px}
+    
+    
+        .Story-second {
+            max-width: 30%; 
+            height: auto; 
+            padding: 1rem; 
+            display: block; 
+            margin-top:-6rem; 
+    
+        }
+
+
+
+        body {
+            font-family:  sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+           .Buttons {
+            border:none; 
+            cursor:pointer;
+            background-color:grey;
+            color:white;
+            margin-top:30px;
+            font-size: 16px;
+            border-radius:5px;
+            padding: 10px 20px;
+            width:100px;
+            height:50px;
+        
+        
+        }
+        
+        
+        
+        .bar{
+            position:fixed;
+            top:118px;
+            left:0px;
+            height:57%;
+            padding:10px;
+            box-sizing:border-box;
+            z-index:600;
+            background-color:#333;
+            width:130px;
+            
+        }
+        
+        
+        
+        
+        
+        
+        .content {
+            margin-left: 100px; 
+            margin-top: 80px; 
+        }
+        
+        
+        /* reference -online serach engine */
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+            
+        }
+        
+        /* CSS Styles for the "Previous Page" button */
+        #previousButton {
+            border: none;
+            cursor: pointer;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 120px;
+            height: 50px;
+            margin-top: -75px;
+            margin-right: 10px; 
+            margin-left: 10px; 
+            position:fixed;
+            bottom: 10px; 
+            right: 10px
+        }
+        
+        #previousButton:hover {
+            background-color: #555;
+        }
+        
+        
+        
+        
+        .img_one {
+            max-width: 30%; 
+            height: auto; 
+            border: 2px solid #333; 
+            padding: 0; 
+            display: block; 
+            margin: 0 auto; 
+        }
+        
+        
+        .summary h2 {
+             font-size:50px;
+            color:black;
+            padding:0rem;
+            margin-top:-100px;
+        
+        
+        
+        }
+        .summary-text{
+        
+            font-size:1000;
+        }
+        
+        
+        
+        .desgin {
+            font-family: Arial, sans-serif; 
+            font-size: 14xpx; 
+            color: #333; 
+            line-height: 1.6; 
+            padding:25px}
+        
+        
+        
+        
+            .Story-one {
+                max-width: 30%; 
+                height: auto; 
+                padding: 1rem; 
+                display: block; 
+                margin-top:2rem; 
+        
+            }
+        
+            .summary-text{
+                font-family: Arial, sans-serif; 
+            font-size: 14xpx; 
+            color: #333; 
+            line-height: 1.6; 
+            padding:25px}
+        
+        
+            .Story-second {
+                max-width: 30%; 
+                height: auto; 
+                padding: 1rem; 
+                display: block; 
+                margin-top:-6rem; 
+        
+            }
+        
+
